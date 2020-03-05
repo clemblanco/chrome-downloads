@@ -2,7 +2,6 @@
     "manifest_version": 2,
     "name": "Downloads",
     "version": "0.1",
-    "default_locale": "en",
     "description": "Chrome extension to see the number of active downloads and access the Downloads page easily.",
     "author": "Clément Blanco",
     "homepage_url": "https://github.com/clemblanco/chrome-downloads",
@@ -12,6 +11,7 @@
         "128": "icon128.png"
     },
     "browser_action": {
+        "default_title": "Downloads",
         "default_icon": "icon128.png"
     },
     "background": {
